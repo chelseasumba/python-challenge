@@ -59,8 +59,8 @@ with open(txtfilepath,'w') as txtfile:
     txtfile.write(f'Total Months: {total_months}\n')
     txtfile.write(f'Total: ${total_net}\n')
     txtfile.write(f'Average Change: ${average_change}\n')
-    txtfile.write(f'Greatest Increase in Profits:{greatest_increase_date} ${greatest_increase}\n')
-    txtfile.write(f'Greatest Decrease in Profits:{greatest_decrease_date} ${greatest_decrease}\n')
+    txtfile.write(f'Greatest Increase in Profits:{greatest_increase_date} $({greatest_increase})\n')
+    txtfile.write(f'Greatest Decrease in Profits:{greatest_decrease_date} $({greatest_decrease})\n')
 
 
 
